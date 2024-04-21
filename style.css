@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navi {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  width: 100vw;
+}
+.navi ul {
+  display: block;
+  list-style: none;
+  display: flex;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.065);
+  height: 8vh;
+}
+
+#log {
+  display: block;
+  background-color: rgba(142, 163, 240, 0.419);
+  border: 2px solid;
+  border: none;
+  width: 5vw;
+  height: 3vh;
+  color: rgb(89, 8, 251);
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+form {
+  border: 2px solid rgb(242, 238, 238);
+  background-color: rgb(250, 247, 247);
+  padding: 20px;
+  border-radius: 10px;
+  width: 89vw;
+  position: fixed;
+  top: 10vh;
+  left: 6vw;
+  z-index: 950;
+}
+
+input {
+  width: 17vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(242, 240, 238);
+  padding-left: 2vw;
+}
+
+i {
+  position: fixed;
+  top: 14vh;
+  left: 22vw;
+}
+
+button {
+  background-color: rgb(116, 45, 215);
+  border: none;
+  width: 8%;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  margin-left: 9px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid;
+  background-color: rgb(242, 240, 238);
+  width: 17vw;
+  height: 20vh;
+  border-radius: 10px;
+  border: none;
+  list-style: none;
+  position: relative;
+  top: 17vh;
+  margin-top: 60px;
+  padding-top: 9px;
+}
+
+.card li {
+  margin-left: 3vh;
+  margin-bottom: 2vh;
+}
